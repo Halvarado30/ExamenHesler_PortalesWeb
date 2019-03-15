@@ -1,0 +1,22 @@
+:root {
+    --blanco: #ffffff;
+    --primario: #0264fb;
+    --secundario: #ffb03a;
+    --gris: #4b4b4b;
+    --negro: #000000;
+}
+html {
+    box-sizing: border-box;
+    min-height: 100%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100%;
+}
+
+.header {
+    background-color: var(--primario);
+}
