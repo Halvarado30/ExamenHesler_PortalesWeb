@@ -4,6 +4,7 @@
     --secundario: #ffb03a;
     --gris: #4b4b4b;
     --negro: #000000;
+    --fondo: #f7f8fb;
 }
 html {
     box-sizing: border-box;
@@ -19,4 +20,18 @@ body {
 
 .header {
     background-color: var(--primario);
+}
+
+.hero {
+    height: 450px;
+    background-image: url(../img/Path\ 2.png);
+    margin-bottom: 2rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor {
+    background-color: var(--fondo);
 }
